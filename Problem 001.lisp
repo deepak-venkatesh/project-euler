@@ -1,4 +1,4 @@
-;; Project Euler Problem 1
+;;;; Project Euler Problem 1
 
 ;; 0.000036 seconds of total run time (0.000036 user, 0.000000 system)
 
