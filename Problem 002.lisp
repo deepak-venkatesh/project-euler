@@ -31,7 +31,7 @@
 	  while (<= x n)
 	  when (evenp x) sum x)))
 
-;; recursion approach to be done
+;; tail recursion approach
 ;; 0.000002 seconds of total run time (0.000001 user, 0.000001 system)
 
 (defun sum-even-fibs-tail (limit &optional (a 0) (b 1) (acc 0))
