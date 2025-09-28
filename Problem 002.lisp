@@ -2,7 +2,8 @@
 
 
 ;; simple aproach of generate -> filter -> reduce
-;; 0.000004 seconds of total run time (0.000003 user, 0.000001 system
+;; 0.000004 seconds of total run time (0.000003 user, 0.000001 system)
+;; my python while loop which is similar takes 0.45 milli seconds to 0.65 milli seconds
 
 (defun sum-even-fibs-fn (n)
   (reduce #'+
