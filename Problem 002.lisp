@@ -3,7 +3,7 @@
 
 ;; simple aproach of generate -> filter -> reduce
 ;; 0.000004 seconds of total run time (0.000003 user, 0.000001 system)
-;; my python while loop which is similar takes 0.45 milli seconds to 0.65 milli seconds
+;; my python while loop which is similar takes 0.45 milli seconds to 0.65 milli seconds. Lisp code is over 200 times faster.
 
 (defun sum-even-fibs-fn (n)
   (reduce #'+
